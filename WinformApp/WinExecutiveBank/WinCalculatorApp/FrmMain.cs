@@ -78,7 +78,7 @@ namespace WinCalculatorApp
             Op = '\0';
             OpFlag = false;
             PercentFlag = false;
-
+             
             
         }
 
