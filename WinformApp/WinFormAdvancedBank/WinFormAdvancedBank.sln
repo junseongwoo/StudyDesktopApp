@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinChartApp", "WinChartApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageViewerApp", "ImageViewerApp\ImageViewerApp.csproj", "{5782078C-0F13-4F49-B311-06BBC4DFAD85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressInfoApp", "AddressInfoApp\AddressInfoApp.csproj", "{A28537FD-D1D0-43DA-A473-16F65DEDD739}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5782078C-0F13-4F49-B311-06BBC4DFAD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5782078C-0F13-4F49-B311-06BBC4DFAD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5782078C-0F13-4F49-B311-06BBC4DFAD85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28537FD-D1D0-43DA-A473-16F65DEDD739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28537FD-D1D0-43DA-A473-16F65DEDD739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28537FD-D1D0-43DA-A473-16F65DEDD739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28537FD-D1D0-43DA-A473-16F65DEDD739}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
