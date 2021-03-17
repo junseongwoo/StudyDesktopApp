@@ -30,13 +30,13 @@ namespace BookRentalShopApp
         private void InitializeComponent()
         {
             this.GrbDetail = new System.Windows.Forms.GroupBox();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.TxtDivision = new MetroFramework.Controls.MetroTextBox();
-            this.TxtNames = new MetroFramework.Controls.MetroTextBox();
-            this.BtnDelete = new MetroFramework.Controls.MetroButton();
-            this.BtnNew = new MetroFramework.Controls.MetroButton();
             this.BtnSave = new MetroFramework.Controls.MetroButton();
+            this.BtnNew = new MetroFramework.Controls.MetroButton();
+            this.BtnDelete = new MetroFramework.Controls.MetroButton();
+            this.TxtNames = new MetroFramework.Controls.MetroTextBox();
+            this.TxtDivision = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.DgvData = new System.Windows.Forms.DataGridView();
             this.GrbDetail.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvData)).BeginInit();
@@ -60,23 +60,70 @@ namespace BookRentalShopApp
             this.GrbDetail.TabStop = false;
             this.GrbDetail.Text = "상세";
             // 
-            // metroLabel1
+            // BtnSave
             // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(33, 32);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(72, 19);
-            this.metroLabel1.TabIndex = 0;
-            this.metroLabel1.Text = "구분코드 :";
+            this.BtnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnSave.Location = new System.Drawing.Point(247, 371);
+            this.BtnSave.Name = "BtnSave";
+            this.BtnSave.Size = new System.Drawing.Size(75, 23);
+            this.BtnSave.TabIndex = 6;
+            this.BtnSave.Text = "저장";
+            this.BtnSave.UseSelectable = true;
+            this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
-            // metroLabel2
+            // BtnNew
             // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(61, 81);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(44, 19);
-            this.metroLabel2.TabIndex = 1;
-            this.metroLabel2.Text = "이름 :";
+            this.BtnNew.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnNew.Location = new System.Drawing.Point(166, 371);
+            this.BtnNew.Name = "BtnNew";
+            this.BtnNew.Size = new System.Drawing.Size(75, 23);
+            this.BtnNew.TabIndex = 5;
+            this.BtnNew.Text = "신규";
+            this.BtnNew.UseSelectable = true;
+            this.BtnNew.Click += new System.EventHandler(this.BtnNew_Click);
+            // 
+            // BtnDelete
+            // 
+            this.BtnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnDelete.Location = new System.Drawing.Point(85, 371);
+            this.BtnDelete.Name = "BtnDelete";
+            this.BtnDelete.Size = new System.Drawing.Size(75, 23);
+            this.BtnDelete.TabIndex = 4;
+            this.BtnDelete.Text = "삭제";
+            this.BtnDelete.UseSelectable = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
+            // 
+            // TxtNames
+            // 
+            // 
+            // 
+            // 
+            this.TxtNames.CustomButton.Image = null;
+            this.TxtNames.CustomButton.Location = new System.Drawing.Point(185, 1);
+            this.TxtNames.CustomButton.Name = "";
+            this.TxtNames.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.TxtNames.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.TxtNames.CustomButton.TabIndex = 1;
+            this.TxtNames.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.TxtNames.CustomButton.UseSelectable = true;
+            this.TxtNames.CustomButton.Visible = false;
+            this.TxtNames.Lines = new string[0];
+            this.TxtNames.Location = new System.Drawing.Point(115, 81);
+            this.TxtNames.MaxLength = 32767;
+            this.TxtNames.Name = "TxtNames";
+            this.TxtNames.PasswordChar = '\0';
+            this.TxtNames.PromptText = "이름";
+            this.TxtNames.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TxtNames.SelectedText = "";
+            this.TxtNames.SelectionLength = 0;
+            this.TxtNames.SelectionStart = 0;
+            this.TxtNames.ShortcutsEnabled = true;
+            this.TxtNames.Size = new System.Drawing.Size(207, 23);
+            this.TxtNames.TabIndex = 3;
+            this.TxtNames.UseSelectable = true;
+            this.TxtNames.WaterMark = "이름";
+            this.TxtNames.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.TxtNames.WaterMarkFont = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // TxtDivision
             // 
@@ -111,77 +158,33 @@ namespace BookRentalShopApp
             this.TxtDivision.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.TxtDivision.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // TxtNames
+            // metroLabel2
             // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(61, 81);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(44, 19);
+            this.metroLabel2.TabIndex = 1;
+            this.metroLabel2.Text = "이름 :";
             // 
+            // metroLabel1
             // 
-            // 
-            this.TxtNames.CustomButton.Image = null;
-            this.TxtNames.CustomButton.Location = new System.Drawing.Point(185, 1);
-            this.TxtNames.CustomButton.Name = "";
-            this.TxtNames.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.TxtNames.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.TxtNames.CustomButton.TabIndex = 1;
-            this.TxtNames.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.TxtNames.CustomButton.UseSelectable = true;
-            this.TxtNames.CustomButton.Visible = false;
-            this.TxtNames.Lines = new string[0];
-            this.TxtNames.Location = new System.Drawing.Point(115, 81);
-            this.TxtNames.MaxLength = 32767;
-            this.TxtNames.Name = "TxtNames";
-            this.TxtNames.PasswordChar = '\0';
-            this.TxtNames.PromptText = "이름";
-            this.TxtNames.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtNames.SelectedText = "";
-            this.TxtNames.SelectionLength = 0;
-            this.TxtNames.SelectionStart = 0;
-            this.TxtNames.ShortcutsEnabled = true;
-            this.TxtNames.Size = new System.Drawing.Size(207, 23);
-            this.TxtNames.TabIndex = 3;
-            this.TxtNames.UseSelectable = true;
-            this.TxtNames.WaterMark = "이름";
-            this.TxtNames.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.TxtNames.WaterMarkFont = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // BtnDelete
-            // 
-            this.BtnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnDelete.Location = new System.Drawing.Point(85, 371);
-            this.BtnDelete.Name = "BtnDelete";
-            this.BtnDelete.Size = new System.Drawing.Size(75, 23);
-            this.BtnDelete.TabIndex = 4;
-            this.BtnDelete.Text = "삭제";
-            this.BtnDelete.UseSelectable = true;
-            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
-            // 
-            // BtnNew
-            // 
-            this.BtnNew.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnNew.Location = new System.Drawing.Point(166, 371);
-            this.BtnNew.Name = "BtnNew";
-            this.BtnNew.Size = new System.Drawing.Size(75, 23);
-            this.BtnNew.TabIndex = 5;
-            this.BtnNew.Text = "신규";
-            this.BtnNew.UseSelectable = true;
-            this.BtnNew.Click += new System.EventHandler(this.BtnNew_Click);
-            // 
-            // BtnSave
-            // 
-            this.BtnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnSave.Location = new System.Drawing.Point(247, 371);
-            this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(75, 23);
-            this.BtnSave.TabIndex = 6;
-            this.BtnSave.Text = "저장";
-            this.BtnSave.UseSelectable = true;
-            this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(33, 32);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(72, 19);
+            this.metroLabel1.TabIndex = 0;
+            this.metroLabel1.Text = "구분코드 :";
             // 
             // DgvData
             // 
             this.DgvData.AllowUserToAddRows = false;
             this.DgvData.AllowUserToDeleteRows = false;
-            this.DgvData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.DgvData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DgvData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.DgvData.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.DgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DgvData.Location = new System.Drawing.Point(9, 63);
             this.DgvData.Name = "DgvData";
