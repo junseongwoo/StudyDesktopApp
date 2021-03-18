@@ -155,22 +155,22 @@ namespace BookRentalShopApp
                     var query = "";
                     if (isNew == true) // insert
                     {
-                        query = @"INSERT INTO [dbo].[membertbl]
-                                            ([Names]
-                                            ,[Levels]
-                                            ,[Addr]
-                                            ,[Mobile]
-                                            ,[Email]
-                                            ,[userID]
-                                            ,[passwords])
-                                        VALUES
-                                            (@Names
-                                            ,@Levels
-                                            ,@Addr
-                                            ,@Mobile
-                                            ,@Email
-                                            ,@userID
-                                            ,@passwords)";
+                        query = @"INSERT INTO [dbo].[bookstbl]
+                                       ([Author]
+                                       ,[Division]
+                                       ,[Names]
+                                       ,[ReleaseDate]
+                                       ,[ISBN]
+                                       ,[Price]
+                                       ,[Descriptions])
+                                 VALUES
+                                       (@Author
+                                       ,@Division
+                                       ,@Names
+                                       ,@ReleaseDate
+                                       ,@ISBN
+                                       ,@Price
+                                       ,@Descriptions) ";
                     }
                     else  // UPDATE
                     {
