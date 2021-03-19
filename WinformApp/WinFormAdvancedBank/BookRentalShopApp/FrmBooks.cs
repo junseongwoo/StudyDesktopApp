@@ -213,7 +213,7 @@ namespace BookRentalShopApp
                     cmd.Parameters.Add(pPrice);
 
                     SqlParameter pDescriptions = new SqlParameter("@Descriptions", SqlDbType.NVarChar);
-                    pDescriptions.Value = TxtDescriptions.Text;
+                    pDescriptions.Value = Helper.Common.ReplaceCmdText(TxtDescriptions.Text);
                     cmd.Parameters.Add(pDescriptions);
 
                     if (isNew == false) // 업데이트 일때만 처리
