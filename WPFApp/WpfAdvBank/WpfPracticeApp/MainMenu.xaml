@@ -27,7 +27,21 @@
                 Content="Live Support" Margin="10" Click="BtnLiveSupport_Click" />
         <Button x:Name="BtnEmailSupprt" 
                 Grid.Row="1" Grid.Column="2"
-                Content="Email Support" Margin="10" Click="BtnEmailSupprt_Click" />
+                Content="Email Support" Margin="10" Click="BtnEmailSupprt_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Rectangle Fill="DarkSlateBlue" 
+                                   Stroke="DarkBlue" StrokeThickness="3"
+                                   RadiusX="15" RadiusY="12" />
+                        <Label Content="{TemplateBinding Content}" 
+                               Foreground="White"
+                               HorizontalContentAlignment ="Center"
+                               VerticalContentAlignment="Center" />
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
 
         <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3"
                Content="Adventure Works" 
