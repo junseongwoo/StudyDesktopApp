@@ -134,9 +134,24 @@ namespace IoTSensorMonApp
             timerSimul.Start();
         }
 
+        private long timeSpan = 0;  // 시간 흐름 값 
+        private int randMaxVal = 0;
+
         private void TimerSimul_Tick(object sender, EventArgs e)
         {
-            int value = randPhoto.Next(1, 1023);   // 1부터 1023까지 사이의 값
+            timeSpan += 1;
+            var temp = timeSpan % 30;
+
+            if (temp.ToString().Length == 2)
+            {
+                randMaxVal = 980;
+            }
+            else
+            {
+                randMaxVal = 120;
+            }
+
+            int value = randPhoto.Next(randMaxVal -40, randMaxVal);   // 1부터 1023까지 사이의 값
             ShowSensorValue(value.ToString());
         }
         /// <summary>
