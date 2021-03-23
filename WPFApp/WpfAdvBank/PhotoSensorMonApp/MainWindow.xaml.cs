@@ -114,7 +114,7 @@ namespace PhotoSensorMonApp
 
             CustomTimer = new DispatcherTimer();
             CustomTimer.Interval = TimeSpan.FromSeconds(1);
-            CustomTimer.Tick += CustomTimer_Tick;
+            CustomTimer.Tick += CustomTimer_Tick; 
             //CustomTimer.Start();
         }
 
