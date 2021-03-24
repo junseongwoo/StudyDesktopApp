@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoSensorMonApp", "PhotoS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTestApp", "WpfTestApp\WpfTestApp.csproj", "{3DD41974-89DC-41B3-888C-687D2BDD3327}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FineDustMonApp", "FineDustMonApp\FineDustMonApp.csproj", "{E1012B08-2D6F-464B-B8E2-70AF4EC0009C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3DD41974-89DC-41B3-888C-687D2BDD3327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DD41974-89DC-41B3-888C-687D2BDD3327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DD41974-89DC-41B3-888C-687D2BDD3327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1012B08-2D6F-464B-B8E2-70AF4EC0009C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1012B08-2D6F-464B-B8E2-70AF4EC0009C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1012B08-2D6F-464B-B8E2-70AF4EC0009C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1012B08-2D6F-464B-B8E2-70AF4EC0009C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
