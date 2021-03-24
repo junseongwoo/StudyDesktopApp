@@ -15,8 +15,11 @@ namespace WpfTestApp
                 case "FormatLastFirst":
                     name = $"{values[1]}, {values[0]}"; // 뒤집어서 포맷팅
                     break;
-                default:
+                case "FormatNormal":
                     name = $"{values[0]} {values[1]}"; // 기본
+                    break;
+                default:
+                    name = "";
                     break;
             }
 
@@ -25,7 +28,9 @@ namespace WpfTestApp
 
         public object[] ConvertBack(object value, Type[] targetTypes, object parameter, CultureInfo culture)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            var splitValues = ((string) value).Split(' ');
+            return splitValues;
         }
     }
 }
