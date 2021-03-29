@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTSensorMonApp", "IoTSenso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRentalShopApp", "BookRentalShopApp\BookRentalShopApp.csproj", "{C909FCB1-D02D-4094-8EC9-BAD51A14A42F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResultImg", "ResultImg", "{DE925A55-416E-4C9C-B645-520C23EB8B3F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Result", "Result", "{55BDECC5-D747-4697-94AD-0F0F32911DFE}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\ResultImg\BookRental.png = ..\..\ResultImg\BookRental.png
 		..\..\ResultImg\BookRental2.png = ..\..\ResultImg\BookRental2.png
