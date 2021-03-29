@@ -15,6 +15,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTestApp", "WpfTestApp\Wp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FineDustMonApp", "FineDustMonApp\FineDustMonApp.csproj", "{E1012B08-2D6F-464B-B8E2-70AF4EC0009C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResultImg", "ResultImg", "{5ACABFB5-1EDC-4BB3-A3B8-4F36B0AC06BC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\ResultImg\FineDustApp.png = ..\..\ResultImg\FineDustApp.png
+		..\..\ResultImg\SensorMon.png = ..\..\ResultImg\SensorMon.png
+		..\..\ResultImg\WpfBike.png = ..\..\ResultImg\WpfBike.png
+		..\..\ResultImg\WpfBike1.png = ..\..\ResultImg\WpfBike1.png
+		..\..\ResultImg\WpfBIke2.png = ..\..\ResultImg\WpfBIke2.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
