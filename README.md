@@ -47,5 +47,7 @@
 
 ### 3. [FindustMonitorApp](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WPFApp/WpfAdvBank/FineDustMonApp)
 
+- OpenAPI의 사용방법과 C#과의 연동, 활용법을 배움
+- OpenAPI로 받은 데이터를 활용하여 원하는 정보를 화면과 연동하는 법을 배움 
 
-![결과1](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/FineDustApp.png?raw=true "미세먼지 ")
+![결과1](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/FineDustApp.png?raw=true "미세먼지 앱")
