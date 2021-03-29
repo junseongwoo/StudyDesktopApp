@@ -48,4 +48,4 @@
 ### 3. [FindustMonitorApp](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WPFApp/WpfAdvBank/FineDustMonApp)
 
 
-
+![결과1](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/FineDustApp.png?raw=true "미세먼지 ")
