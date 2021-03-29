@@ -3,8 +3,12 @@
 
 ## Winform Project
 ### 1. [NotePad](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WinformApp/WinExecutiveBank/MyNotePadApp)
+
 - Winform을 활용한 메모장 앱 생성
+
 ![결과1](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WinNotePad.png?raw=true "NotePad")
+![결과2](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WinNotePad2.png?raw=true "NotePad")
+![결과3](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WinNotePad3.png?raw=true "NotePad")
 
 ### 2. [IoTSensor](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WinformApp/WinFormAdvancedBank/IoTSensorMonApp)
 ### 3. [BookRentalShop](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WinformApp/WinFormAdvancedBank/BookRentalShopApp)
@@ -16,7 +20,3 @@
 
 
 
-
-
-### Login App Tempate
- ![결과1](/WinformApp/PracticeWinApp/LoginApp/result.png "로그인 앱 템플릿")
