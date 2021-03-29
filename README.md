@@ -13,6 +13,7 @@
 ### 2. [IoTSensor](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WinformApp/WinFormAdvancedBank/IoTSensorMonApp)
 
 - Winform와 SQL을 연동하여 Iot Sensor 앱 개발
+- C#과 DB를 연동하는 방법을 배우고 화면에 나타내는 앱을 생성
 
 ![결과1](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WinIot.png?raw=true "Sensor Monitor")
 ![결과2](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WinIot2.png?raw=true "Sensor Monitor")
