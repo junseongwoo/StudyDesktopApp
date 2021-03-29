@@ -31,9 +31,20 @@
 ## WPF Project
 ### 1. [BikeShop](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WPFApp/WpfAdvBank/WpfPracticeApp)
 
-- 
+- WPF 기본과 확장프로그램을 활용하여 Winform 보다 다양한 화면구성을 하는 것을 배움
+- DB와 연동하여 물건과 메세지를 사용하는 법을 배움 
+
+![결과1](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WpfBike.png?raw=true "초기 화면")
+![결과2](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WpfBike1.png?raw=true "Products 선택") 
+![결과3](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WpfBIke2.png?raw=true "Chat")
 
 ### 2. [SensorMonitorApp](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WPFApp/WpfAdvBank/PhotoSensorMonApp)
+
+- Winform의 IoTSensor 프로그램과 DB를 연동하여 데이터 생성 -> DB 최신화 -> WPF로 만든 화면에 표시의 과정을 배움 
+- WPF 그래프의 사용방법을 배움
+
+![결과1](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/SensorMon.png?raw=true "SenSor Monitor")
+
 ### 3. [FindustMonitorApp](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WPFApp/WpfAdvBank/FineDustMonApp)
 
 
