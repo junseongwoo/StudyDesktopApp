@@ -14,6 +14,7 @@
 
 - Winform와 SQL을 연동하여 Iot Sensor 앱 개발
 - C#과 DB를 연동하는 방법을 배우고 화면에 나타내는 앱을 생성
+- 랜덤한 0~1023까지의 숫자를 센서로부터 오는 데이터로 생성하고 이것을 DB에 저장하는 법을 배움
 
 ![결과1](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WinIot.png?raw=true "Sensor Monitor")
 ![결과2](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WinIot2.png?raw=true "Sensor Monitor")
