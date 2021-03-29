@@ -21,6 +21,13 @@
 
 ### 3. [BookRentalShop](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WinformApp/WinFormAdvancedBank/BookRentalShopApp)
 
+- Nuget을 이용하여 확장프로그램을 설치, 활용하여 책 대여 프로그램 생성
+- DB로 부터 책, 이용자 등을 받아 데이터를 수정, 생성 및 삭제 같은 행동시 DB를 최신화 하는 방법을 배움
+
+![결과1](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/BookRental.png?raw=true "초기 화면")
+![결과2](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/BookRental2.png?raw=true " 구분")
+![결과3](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/BookRental3.png?raw=true "회원 관리")
+
 ## WPF Project
 ### 1. [BikeShop](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WPFApp/WpfAdvBank/WpfPracticeApp)
 ### 2. [SensorMonitorApp](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WPFApp/WpfAdvBank/PhotoSensorMonApp)
