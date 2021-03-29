@@ -11,6 +11,12 @@
 ![결과3](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WinNotePad3.png?raw=true "NotePad")
 
 ### 2. [IoTSensor](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WinformApp/WinFormAdvancedBank/IoTSensorMonApp)
+
+- Winform와 SQL을 연동하여 Iot Sensor 앱 개발
+
+![결과1](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WinIot.png?raw=true "Sensor Monitor")
+![결과2](https://github.com/junseongwoo/StudyDesktopApp/blob/main/ResultImg/WinIot2.png?raw=true "Sensor Monitor
+
 ### 3. [BookRentalShop](https://github.com/junseongwoo/StudyDesktopApp/tree/main/WinformApp/WinFormAdvancedBank/BookRentalShopApp)
 
 ## WPF Project
